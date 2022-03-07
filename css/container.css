@@ -1,0 +1,8 @@
+.container {
+    max-width: 1400px;
+    /*Расположение контейнера по центру*/
+    margin: 0 auto;
+    padding: 30px 20px;
+    border: 1px solid red;
+
+}
