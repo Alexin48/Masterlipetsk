@@ -27,3 +27,10 @@ h6,
 p {
   margin: 0
 }
+
+h1{
+    font-size: 52px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+

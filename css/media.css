@@ -13,12 +13,12 @@
     }
 
     .header__logo img {
-        width: calc(150px + (1080 - 900) * ((100vw - 320px) / (1440 - 320)));
+        width: calc(100px + (1080 - 900) * ((100vw - 320px) / (1440 - 320)));
     }
 
     .header__dark {
-        padding-top: calc(10px + (200 - 10) * ((100vw - 320px) / (1440 - 320)));
-        padding-bottom: calc(10px + (200 - 10) * ((100vw - 320px) / (1440 - 320)));
+        padding-top: calc(10px + (150 - 10) * ((100vw - 320px) / (1440 - 320)));
+        padding-bottom: calc(10px + (150 - 10) * ((100vw - 320px) / (1440 - 320)));
     }
 
     .header__title {
@@ -27,6 +27,10 @@
 
     .header__title h1 {
         font-size: calc(12px + (55 - 12) * ((100vw - 320px) / (1440 - 320)));
+        padding-bottom: calc(6px + (15 - 6) * ((100vw - 320px) / (1440 - 320)));
+        padding-top: calc(4px + (10 - 4) * ((100vw - 320px) / (1440 - 320)));
+
+
     }
 
     .header__title h2 {
@@ -36,23 +40,50 @@
     }
 
     .header__color {
-        font-size: calc(6px + (22 - 6) * ((100vw - 320px) / (1440 - 320)));
+        font-size: calc(5px + (22 - 5) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .problems__title h1{
+        font-size: calc(10px + (52 - 10) * ((100vw - 320px) / (1440 - 320)));
+
+    }
+    .problems__col1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: calc(5px + (50 - 5) * ((100vw - 320px) / (1440 - 320)));
+        padding-bottom: calc(10px + (80 - 10) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .problem__img img{
+        max-width: calc(90px + (1080 - 90) * ((100vw - 320px) / (1440 - 320)));
+
+
+    }
+    .problem__text {
+        font-size: calc(10px + (22 - 10) * ((100vw - 320px) / (1440 - 320)));
+    }
+    .problem-question{
+        font-size: calc(10px + (22 - 10) * ((100vw - 320px) / (1440 - 320)));
+        gap: calc(10px + (30 - 10) * ((100vw - 320px) / (1440 - 320)));
+
+    }
+
+    .problem-question::before {
+        background-size: calc(50px + (70 - 50) * ((100vw - 320px) / (1440 - 320)));;
+    
     }
 }
 
 @media (max-width: 1200px) {
-    .header__content {
-        font-size: calc(6px + (22 - 6) * ((100vw - 320px) / (1440 - 320)));
-        padding: calc(20px + (100 - 20) * ((100vw - 320px) / (1440 - 320)));
-        margin-top: calc(40px + (80 - 40) * ((100vw - 320px) / (1440 - 320)));
-        margin-bottom: calc(1px + (150 - 1) * ((100vw - 320px) / (1440 - 320)));
-        gap: calc(15px + (75 - 15) * ((100vw - 320px) / (1440 - 320)));
-    }
 }
 
 @media (max-width: 1024px) {}
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .problems__item {
+        width: 100%;
+    }
+}
 
 @media (max-width: 768px) {
     .header {
@@ -79,6 +110,13 @@
         margin: 0 auto;
 
     }
+    /* .problem__img img {
+        max-width: calc(100px + (1080 - 900) * ((100vw - 320px) / (1440 - 320)));
+    } */
+
+    
+            
+
 }
 
 @media (max-width: 576px) {}
