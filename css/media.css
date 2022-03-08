@@ -1,0 +1,91 @@
+@media (max-width: 1900px) {}
+
+@media (max-width: 1440px) {
+    .container {
+        padding-top: calc(10px + (30 - 10) * ((100vw - 320px) / (1440 - 320)));
+        padding-bottom: calc(10px + (30 - 10) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .header {
+        padding-left: calc(20px + (100 - 20) * ((100vw - 320px) / (1440 - 320)));
+        padding-right: calc(20px + (100 - 20) * ((100vw - 320px) / (1440 - 320)));
+        font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .header__logo img {
+        width: calc(150px + (1080 - 900) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .header__dark {
+        padding-top: calc(10px + (200 - 10) * ((100vw - 320px) / (1440 - 320)));
+        padding-bottom: calc(10px + (200 - 10) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .header__title {
+        padding-bottom: calc(10px + (30 - 10) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .header__title h1 {
+        font-size: calc(12px + (55 - 12) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .header__title h2 {
+        font-size: calc(12px + (50 - 12) * ((100vw - 320px) / (1440 - 320)));
+        padding-left: calc(20px + (300 - 20) * ((100vw - 320px) / (1440 - 320)));
+        padding-right: calc(20px + (300 - 20) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .header__color {
+        font-size: calc(6px + (22 - 6) * ((100vw - 320px) / (1440 - 320)));
+    }
+}
+
+@media (max-width: 1200px) {
+    .header__content {
+        font-size: calc(6px + (22 - 6) * ((100vw - 320px) / (1440 - 320)));
+        padding: calc(20px + (100 - 20) * ((100vw - 320px) / (1440 - 320)));
+        margin-top: calc(40px + (80 - 40) * ((100vw - 320px) / (1440 - 320)));
+        margin-bottom: calc(1px + (150 - 1) * ((100vw - 320px) / (1440 - 320)));
+        gap: calc(15px + (75 - 15) * ((100vw - 320px) / (1440 - 320)));
+    }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+    }
+
+    .header__logo {
+        margin: 0 auto;
+    }
+
+    .header__address {
+        margin: 0 auto;
+    }
+
+    .header__telephone {
+        margin: 0 auto;
+    }
+
+    .header__mail {
+        margin: 0 auto;
+
+    }
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 360px) {
+    .header {
+        justify-content: center;
+        align-items: center;
+    }
+}

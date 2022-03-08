@@ -3,25 +3,34 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    display: inline-block;
+    max-width: 100%;
     height: auto;
-    padding-bottom: 136px;
+    width: -moz-available;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
-    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px 60px;
 }
 
 .header__logo img {
-    width: 180px;
+    display: inline-block;
+    width: 100%;
     height: auto;
-
+    width: -moz-available;
+    padding: 1%;
 }
 
 .header__address {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-end;
     line-height: 1.6;
@@ -54,27 +63,41 @@
 .header__dark {
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    width: 100%;
+    height: 100%;
 }
+
+.header__backgraund-dark {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 
 .header__title {
     text-align: center;
     color: white;
-    line-height: 1.6;
-    text-transform: uppercase;
-    width: 75%;
     margin: 0 auto;
     padding-bottom: 30px;
 }
 
 .header__title h1 {
-    font-size: 44px;
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .header__title h2 {
-    font-size: 36px;
+    font-size: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    line-height: 1.2;
+
 }
 
 .header__advantages {
@@ -82,15 +105,16 @@
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    width: 65%;
+    width: 85%;
     margin: 0 auto;
     gap: 10px;
 }
 
 .header__color {
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 1.2;
+    font-weight: 700;
 }
 
 .blue {
