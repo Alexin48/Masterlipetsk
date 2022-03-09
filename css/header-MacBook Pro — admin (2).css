@@ -1,0 +1,106 @@
+.header__background {
+    background-image: url(../img/header/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 136px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 180px;
+    height: auto;
+
+}
+
+.header__address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 1.6;
+}
+
+.header__telephone {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.header__mail {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header__telephone:before {
+    content: '';
+    width: 50px;
+    height: 30px;
+    background: url(../img/header/whatsapp.svg);
+    display: inline-block;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header__dark {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header__title {
+    text-align: center;
+    color: white;
+    line-height: 1.6;
+    text-transform: uppercase;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.header__title h1 {
+    font-size: 44px;
+}
+
+.header__title h2 {
+    font-size: 36px;
+}
+
+.header__advantages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 65%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.header__color {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.blue {
+    color: rgb(0, 165, 255);
+}
+
+.green {
+    color: rgb(0, 200, 0);
+}
+
+.orange {
+    color: rgb(255, 169, 15);
+}

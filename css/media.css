@@ -30,7 +30,6 @@
         padding-bottom: calc(6px + (15 - 6) * ((100vw - 320px) / (1440 - 320)));
         padding-top: calc(4px + (10 - 4) * ((100vw - 320px) / (1440 - 320)));
 
-
     }
 
     .header__title h2 {
@@ -57,7 +56,6 @@
 
     .problem__img img {
         max-width: calc(90px + (1080 - 90) * ((100vw - 320px) / (1440 - 320)));
-
 
     }
 
@@ -93,57 +91,106 @@
     .scheme__img img {
         max-width: calc(300px + (580 - 300) * ((100vw - 320px) / (1440 - 320)));
     }
+
     .scheme__text2 {
         font-size: calc(6px + (18 - 6) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .watering__title h1 {
+        font-size: calc(10px + (52 - 10) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .watering__subtitle h2 {
+        font-size: calc(6px + (14 - 6) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .watering__subtitle {
+        padding-left: calc(15px + (90 - 15) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .watering__subtitle::before {
+        width: calc(30px + (96 - 30) * ((100vw - 320px) / (1440 - 320)));
+        height: calc(30px + (96 - 30) * ((100vw - 320px) / (1440 - 320)));
+        background-size: calc(20px + (70 - 20) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .watering__text {
+        padding-left: calc(20px + (80 - 20) * ((100vw - 320px) / (1440 - 320)));
+        min-height: calc(20px + (170 - 20) * ((100vw - 320px) / (1440 - 320)));
+        font-size: calc(6px + (18 - 6) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .watering__desc {
+        font-size: calc(6px + (14 - 6) * ((100vw - 320px) / (1440 - 320)));
+        min-height: calc(20px + (100 - 20) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .watering__img img {
+        max-width: calc(40px + (114 - 40) * ((100vw - 320px) / (1440 - 320)));
+    }
+}
+
+@media (max-width: 1200px) {
+    .watering__col {
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .watering__col {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .problems__item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center;
+    }
+
+    .header__logo {
+        margin: 0 auto;
+    }
+
+    .header__address {
+        margin: 0 auto;
+    }
+
+    .header__telephone {
+        margin: 0 auto;
+    }
+
+    .header__mail {
+        margin: 0 auto;
 
     }
 
-    @media (max-width: 1200px) {}
-
-    @media (max-width: 1024px) {}
-
-    @media (max-width: 992px) {
-        .problems__item {
-            width: 100%;
-        }
+    .watering__content {
+        display: flex;
+        flex-direction: column;
     }
 
-    @media (max-width: 768px) {
-        .header {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-end;
-            text-align: center;
-        }
-
-        .header__logo {
-            margin: 0 auto;
-        }
-
-        .header__address {
-            margin: 0 auto;
-        }
-
-        .header__telephone {
-            margin: 0 auto;
-        }
-
-        .header__mail {
-            margin: 0 auto;
-
-        }
-
-        /* .problem__img img {
-        max-width: calc(100px + (1080 - 900) * ((100vw - 320px) / (1440 - 320)));
-    } */
-
+    .watering__col {
+        margin: 0 auto;
 
 
 
     }
 
-    @media (max-width: 576px) {}
+    @media (max-width: 576px) {
+        .watering__col {
+            max-width: calc(150px + (300 - 150) * ((100vw - 320px) / (1440 - 320)));
+        }
+    }
 
     @media (max-width: 360px) {
         .header {
