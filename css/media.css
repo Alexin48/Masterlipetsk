@@ -26,7 +26,7 @@
     }
 
     .header__title h1 {
-        font-size: calc(12px + (55 - 12) * ((100vw - 320px) / (1440 - 320)));
+        font-size: calc(16px + (55 - 16) * ((100vw - 320px) / (1440 - 320)));
         padding-bottom: calc(6px + (15 - 6) * ((100vw - 320px) / (1440 - 320)));
         padding-top: calc(4px + (10 - 4) * ((100vw - 320px) / (1440 - 320)));
 
@@ -43,7 +43,7 @@
     }
 
     .problems__title h1 {
-        font-size: calc(10px + (52 - 10) * ((100vw - 320px) / (1440 - 320)));
+        font-size: calc(16px + (55 - 16) * ((100vw - 320px) / (1440 - 320)));
     }
 
     .problems__col1 {
@@ -74,7 +74,7 @@
     }
 
     .scheme__title h1 {
-        font-size: calc(10px + (52 - 10) * ((100vw - 320px) / (1440 - 320)));
+        font-size: calc(16px + (55 - 16) * ((100vw - 320px) / (1440 - 320)));
     }
 
     .scheme__text {
@@ -96,7 +96,7 @@
     }
 
     .watering__title h1 {
-        font-size: calc(10px + (52 - 10) * ((100vw - 320px) / (1440 - 320)));
+        font-size: calc(16px + (55 - 16) * ((100vw - 320px) / (1440 - 320)));
     }
 
     .watering__subtitle h2 {
@@ -129,7 +129,7 @@
     }
 
     .integrate__title h1 {
-        font-size: calc(10px + (52 - 10) * ((100vw - 320px) / (1440 - 320)));
+        font-size: calc(18px + (55 - 18) * ((100vw - 320px) / (1440 - 320)));
     }
 
     .integration__text {
@@ -139,26 +139,45 @@
     .result__title {
         font-size: calc(10px + (52 - 10) * ((100vw - 320px) / (1440 - 320)));
     }
+
     .result__text p {
         font-size: calc(10px + (22 - 10) * ((100vw - 320px) / (1440 - 320)));
 
-      }
-      .info {
+    }
+
+    .info {
         gap: calc(10px + (80 - 10) * ((100vw - 320px) / (1440 - 320)));
 
-        }
-        .info__logo img{
-            max-width: calc(40px + (250 - 40) * ((100vw - 320px) / (1440 - 320)));
-        }
+    }
 
-      .info__text {
+    .info__logo img {
+        max-width: calc(40px + (250 - 40) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .info__text {
         font-size: calc(5px + (25 - 5) * ((100vw - 320px) / (1440 - 320)));
         padding-top: calc(5px + (20 - 5) * ((100vw - 320px) / (1440 - 320)));
         padding-bottom: calc(5px + (20 - 5) * ((100vw - 320px) / (1440 - 320)));
     }
-    .info__subtitle {  
-        font-size: calc(5px + (22 - 5) * ((100vw - 320px) / (1440 - 320)));
 
+    .info__subtitle {
+        font-size: calc(5px + (22 - 5) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .appeal h1 {
+        font-size: calc(20px + (55 - 20) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .appeal-item {
+        margin-top: calc(1px + (70 - 1) * ((100vw - 320px) / (1440 - 320)));
+        /* padding-top: calc(2px + (40 - 2) * ((100vw - 320px) / (1440 - 320))); */
+    }
+
+    .appeal-subtitle {
+        font-size: calc(16px + (20 - 16) * ((100vw - 320px) / (1440 - 320)));
+    }
+    .appeal-list {
+       font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1440 - 320)));
     }
 
 }
@@ -175,7 +194,6 @@
         font-size: 12px;
         justify-content: center;
         padding-left: 2px;
-
     }
 
     .integration__col1::before {
@@ -196,6 +214,11 @@
         width: 424px;
         height: 280px;
     }
+    
+.appeal-subtitle {
+    font-size: 16px;
+
+}
 
 
 }
@@ -204,8 +227,20 @@
     .watering__col {
         max-width: 300px;
     }
-
+    .appeal-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
 }
+.appeal-item {
+    flex: 0 0 45%;
+}
+.appeal-subtitle{
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+}
+
 
 @media (max-width: 992px) {
     .problems__item {
@@ -261,6 +296,20 @@
     .result__cols {
         flex-direction: column;
         gap: 20px;
+    }
+    .appeal-items {
+    flex-direction: column;
+    }
+    .appeal-subtitle {
+        font-size: 22px;
+        padding-top: 15px;
+        display: flex;
+    
+    }
+    .appeal-list {
+        padding: 70px 5px 5px;
+        font-size: 24px;
+        margin-top: 40px;
     }
 }
 
@@ -350,14 +399,22 @@
         width: 250px;
         height: 200px;
     }
+
     .result__cols1 {
         border: 5px solid #a8d7e1;
         width: 91%;
-      }
+    }
 
-      .result__border {
+    .result__border {
         border: 20px solid rgb(77, 82, 90);
-      }
+    }
+    .appeal-subtitle {
+        font-size: 18px;
+    }
+    .appeal-list {
+        line-height: 1.2;
+        font-size: 22px;
+    }
 
 }
 
@@ -386,10 +443,14 @@
     .result__cols1 {
         border: 2px solid #a8d7e1;
         width: 89%;
-      }
+    }
 
     .result__img {
         width: 212px;
         height: 156px;
-      }
+    }
+
+    .appeal-subtitle {
+        font-size: 18px;
+    }
 }
