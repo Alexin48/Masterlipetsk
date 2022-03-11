@@ -143,6 +143,24 @@
         font-size: calc(10px + (22 - 10) * ((100vw - 320px) / (1440 - 320)));
 
       }
+      .info {
+        gap: calc(10px + (80 - 10) * ((100vw - 320px) / (1440 - 320)));
+
+        }
+        .info__logo img{
+            max-width: calc(40px + (250 - 40) * ((100vw - 320px) / (1440 - 320)));
+        }
+
+      .info__text {
+        font-size: calc(5px + (25 - 5) * ((100vw - 320px) / (1440 - 320)));
+        padding-top: calc(5px + (20 - 5) * ((100vw - 320px) / (1440 - 320)));
+        padding-bottom: calc(5px + (20 - 5) * ((100vw - 320px) / (1440 - 320)));
+    }
+    .info__subtitle {  
+        font-size: calc(5px + (22 - 5) * ((100vw - 320px) / (1440 - 320)));
+
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -166,7 +184,6 @@
 
     .integration__text {
         font-size: 18px;
-        /* padding-left: 70px; */
         padding-bottom: 0;
         padding-top: 30px;
         background-color: lightskyblue;
@@ -179,6 +196,7 @@
         width: 424px;
         height: 280px;
     }
+
 
 }
 
@@ -237,7 +255,6 @@
 
     .integration__text {
         font-size: 16px;
-        /* padding-left: 2px; */
         padding-right: 5px;
     }
 
