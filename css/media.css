@@ -262,6 +262,16 @@
         flex-direction: column;
         gap: 20px;
     }
+    .info {
+        flex-direction: column;
+        padding: 20px;
+        }
+        .info__background {
+            display: none;
+        }
+        .info__col {
+            width: 100%;
+        }
 }
 
 @media (max-width: 576px) {
