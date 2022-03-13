@@ -1,0 +1,34 @@
+.footer {
+    background-image: url("../img/footer/background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 13%;
+    width: -moz-available;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 370px;
+    height: 370px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.end-picture {
+    width: 100%;
+    height: auto;
+}
