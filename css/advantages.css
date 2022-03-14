@@ -1,0 +1,56 @@
+.benefit-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.benefit-item {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 1%;
+    background: rgb(241, 241, 241);
+}
+
+.benefit-background {
+    text-align: center;
+    position: relative;
+    background-color: lightskyblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+
+}
+
+.benefit-background:before {
+    content: "";
+    width: 74px;
+    height: 74px;
+    position: absolute;
+    left: -24px;
+    top: -1px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgb(48, 53, 63);
+    border-radius: 50%;
+    background-size: 50%;
+}
+
+.benefit-text {
+    padding: 28px 10px;
+}
+
+.benefit-item:nth-child(1) .benefit-background:before {
+    background-image: url("../img/advantages/img1.png");
+}
+
+.benefit-item:nth-child(2) .benefit-background:before {
+    background-image: url("../img/advantages/img2.png");
+}
+
+.benefit-item:nth-child(3) .benefit-background:before {
+    background-image: url("../img/advantages/img3.png");
+}
+
+.benefit-item:nth-child(4) .benefit-background:before {
+    background-image: url("../img/advantages/img4.png");
+}
