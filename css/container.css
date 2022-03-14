@@ -1,0 +1,9 @@
+.container {
+    max-width: 1440px;
+    /*Расположение контейнера по центру*/
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

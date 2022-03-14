@@ -1,0 +1,131 @@
+.header__background {
+    background-image: url(../img/header/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    width: -moz-available;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 20px 60px;
+}
+
+.header__logo img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    width: -moz-available;
+    padding: 1%;
+}
+
+.header__address {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 1.6;
+}
+
+.header__telephone {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.header__mail {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header__telephone:before {
+    content: '';
+    position: relative;
+    width: 50px;
+    height: 30px;
+    background: url(../img/header/whatsapp.svg);
+    display: inline-block;
+    background-size: 27px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header__dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 100%;
+    height: 100%;
+}
+
+.header__backgraund-dark {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.header__title {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.header__title h1 {
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header__title h2 {
+    font-size: 49px;
+    padding-left: 300px;
+    padding-right: 300px;
+    line-height: 1.2;
+    font-weight: 400;
+
+}
+
+.header__advantages {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 92%;
+}
+
+.header__color {
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+.blue {
+    color: rgb(0, 165, 255);
+}
+
+.green {
+    color: rgb(0, 200, 0);
+}
+
+.orange {
+    color: rgb(255, 169, 15);
+}
