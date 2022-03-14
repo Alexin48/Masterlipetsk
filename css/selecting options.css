@@ -1,0 +1,28 @@
+
+.selecting-options__col1{
+    display: flex;
+gap: 80px;
+width: 100%;
+height: 100%;
+
+}
+
+.selecting-options__img{
+    text-align: center;
+}
+.electing-options__subtitle{
+width: 60%;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.electing-options__subtitle h2{
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.selecting-options__text p{
+text-align: left;
+
+}
