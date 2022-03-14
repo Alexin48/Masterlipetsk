@@ -1,0 +1,91 @@
+.price {
+    display: flex;
+    gap: 15px;
+    align-items: end;
+}
+
+.price-text {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-main {
+    display: flex;
+    align-items: center;
+    font-family: "Arial Black", sans-serif;
+    font-size: 122px;
+    color: rgb(222, 236, 239);
+
+}
+
+.price-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 60%;
+}
+
+.price-primary h3 {
+    font-size: 19px;
+}
+
+.price-side {
+    flex: 1 1 70%;
+}
+
+.price-side {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+}
+
+.price-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-item {
+    flex-direction: column;
+    flex: 1 1 65%;
+    display: flex;
+    justify-content: end;
+}
+
+.price-list {
+    padding: 30px;
+    background-color: lightskyblue;
+    height: 55%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.price-list li {}
+
+.price-height {
+    height: 90%;
+}
+
+.price-list ul {
+    margin-bottom: 30px;
+}
+
+.price-list li {
+    margin-bottom: 6px;
+}
+
+.price-income {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid gray;
+}

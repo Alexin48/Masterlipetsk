@@ -1,0 +1,122 @@
+.integration__content {}
+
+.integration__cols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 802px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.integration__col1 {
+    padding-top: 20;
+    position: relative;
+    background-color: lightskyblue;
+    flex: 0 1 45%;
+    font-size: 18px;
+    height: 214px;
+    max-width: 400px;
+    display: flex;
+    /* align-items: center; */
+}
+
+.integration__col1::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 140px;
+    top: -41px;
+    border: 2px solid white;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/integration/img4.png");
+    background-color: lightskyblue;
+    border-radius: 50%;
+}
+
+.integration__text {
+    font-size: 26px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.integration__col2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    gap: 30px;
+}
+
+.integration__background {
+    background-color: rgb(241, 241, 241);
+}
+
+.integration__subtitle {
+    font-size: 26px;
+    position: relative;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+}
+
+.integration__text2::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -150px;
+    border: 2px solid white;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../img/integration/irrigation.png");
+    background-color: black;
+    border-radius: 50%;
+    border: 3px solid lightskyblue;
+    box-shadow: 5px 6px 15px 0px rgb(1, 1, 1);
+}
+
+
+
+.integration__text2 {
+    position: relative;
+    font-weight: 600;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    left: 90px;
+
+}
+
+.integration__span {
+    background: #a8d7e1;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    font-size: 22px;
+    font-weight: 700;
+    border-style: double;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5);
+}
+
+.integration__span span {
+    font-weight: 700;
+}
