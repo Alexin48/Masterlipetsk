@@ -1,0 +1,157 @@
+.warranty {
+    display: flex;
+
+}
+
+.warranty__title {
+    margin-bottom: 0px;
+}
+
+.warranty__left {
+
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: gray;
+    flex: 0 0 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 60px;
+}
+
+.warranty__right {
+    position: relative;
+}
+
+.warranty__icon {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    width: 185px;
+    height: 80px;
+
+}
+
+.warranty__icon img {
+    width: 100%;
+    height: auto;
+    /* еще больше контроля с max-width */
+    max-width: 49%;
+
+
+}
+
+.warranty__right:nth-child(1) .warranty__icon {
+    background-image: url(../img/warranty/1.png);
+    top: 58%;
+    left: -11%;
+}
+
+.warranty__right:nth-child(2) .warranty__icon {
+    background-image: url(../img/warranty/2.png);
+    top: 80%;
+    left: 0%;
+}
+
+.warranty__right:nth-child(3) .warranty__icon {
+    background-image: url(../img/warranty/3.png);
+    top: 100%;
+    left: 0%;
+}
+
+
+
+.warranty__left {
+    margin-bottom: 30px;
+}
+
+.warranty__text {
+    margin-bottom: 30px;
+}
+
+.warranty__border {
+    border-top: 2px solid lightgray;
+    width: 99%;
+    margin-top: 17px;
+}
+
+.warranty__border p {
+    padding-top: 30px;
+}
+
+.warranty__left-subtitle {
+    padding-top: 15px;
+}
+
+.warranty__right {
+    text-align: center;
+    flex-direction: column;
+    flex: 0 0 50%;
+}
+
+.warranty__main {
+    padding: 20px;
+    font-size: 24px;
+    margin: 15px 0;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.warranty__main p {
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.warranty__items {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    margin-bottom: 8px;
+}
+
+.warranty__item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.warranty__item b {
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+
+.warranty__item span {
+    font-size: 70px;
+    margin-right: 10px;
+
+}
+
+.warranty__right-subtitle {
+    margin-bottom: 30px;
+    text-align: left;
+    width: 90%;
+    height: auto;
+    padding-left: 142px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.warranty__right-subtitle p {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
